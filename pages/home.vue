@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>index page works!</h1>
+    <h1>home works !</h1>
   </div>
 </template>
 

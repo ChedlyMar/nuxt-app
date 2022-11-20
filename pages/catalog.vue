@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>index page works!</h1>
+    <h1>catalog works !</h1>
   </div>
 </template>
 
