@@ -1,0 +1,1 @@
+import{s as e,e as o,o as s,f as t}from"./entry.e21e0897.js";const c={},n=t("h1",null,"home works !",-1),r=[n];function _(a,l){return s(),o("div",null,r)}const f=e(c,[["render",_]]);export{f as default};

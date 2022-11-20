@@ -1,0 +1,1 @@
+import{s as e,e as t,o,f as c}from"./entry.e21e0897.js";const s={},n=c("h1",null,"Contact works !",-1),a=[n];function r(_,l){return o(),t("div",null,a)}const f=e(s,[["render",r]]);export{f as default};
