@@ -1,21 +1,19 @@
 <template>
   <div>
-    <header>
-      <nav>
-        <NuxtLink to="/">Catalog</NuxtLink>
+    <header class="shadow-sm bg-white">
+      <nav class="container mx-auto p-4">
+        <NuxtLink class="font-bold" to="/">Catalog</NuxtLink>
       </nav>
     </header>
-    <div>
+    <div class="container mx-auto p-4">
       <slot />
     </div>
-    <footer>
-      <nav>
-        <ul>
-          <li><NuxtLink to="/home">Home</NuxtLink></li>
-          <li><NuxtLink to="/catalog">Catalog</NuxtLink></li>
-          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-        </ul>
-      </nav>
+    <footer class="container mx-auto p-4 flex justify-between border-t-2">
+      <ul class="flex gap-4">
+        <li><NuxtLink to="/home">Home</NuxtLink></li>
+        <li><NuxtLink to="/catalog">Catalog</NuxtLink></li>
+        <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+      </ul>
     </footer>
   </div>
 </template>
